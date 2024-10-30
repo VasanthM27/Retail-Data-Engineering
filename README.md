@@ -17,7 +17,6 @@ The pipeline is structured into the following modular components:
 1. **Data Ingestion**
    - **Objective**: To automate the ingestion of raw CSV files into Google Cloud Storage and load data into BigQuery.
    - **Tools**: Astro SDK, Google Cloud Storage, BigQuery.
-   - **Script**: `ingest_data_to_bigquery.py`
 
 2. **Data Transformation with dbt**
    - **Objective**: Transform raw data into analytics-ready tables by running dbt models within Airflow.
